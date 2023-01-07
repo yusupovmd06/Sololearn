@@ -9,6 +9,7 @@ namespace Sololearn.utils
 {
     public static class ContextHolder
     {
+
         public static UserDto? CurrentUser { get; set; }
     }
 }
