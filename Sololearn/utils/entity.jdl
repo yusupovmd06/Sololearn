@@ -1,0 +1,81 @@
+entity User {
+    id long 
+    addedAt DateTime
+    isActive bool
+    addedBy long
+    isDeleted bool
+    name string
+    email string
+    password string
+    role Role
+}
+
+entity Subject {
+    id long 
+    addedAt DateTime
+    isActive bool
+    addedBy long
+    isDeleted bool
+    name String
+}
+
+entity UserSubject {
+  subjectId Long
+  userId Long
+}
+
+entity Test {
+    id long 
+    addedAt DateTime
+    isActive bool
+    addedBy long
+    isDeleted bool
+    name String
+}
+
+entity Question {
+    id long 
+    addedAt DateTime
+    isActive bool
+    addedBy long
+    isDeleted bool
+    body string
+    type QuestionType
+    testId long
+    isActive bool
+    difficulty int
+}
+
+enum QuestionType {
+  TEST,
+  DRAG_AND_DROP,
+  MULTI_TEST,
+  INPUT
+}
+
+entity Answer {
+    id long 
+    addedAt DateTime
+    isActive bool
+    addedBy long
+    isDeleted bool
+    body string
+    isTrue bool
+    questionId long
+}
+
+
+entity UserResult {
+    id long 
+    addedAt DateTime
+    isActive bool
+    addedBy long
+    isDeleted bool
+    questionId long
+    answerId long
+    answerBody string
+    isTrue bool
+}
+
+
+

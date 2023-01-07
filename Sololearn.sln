@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sololearn", "Sololearn\Sololearn.csproj", "{18F960FB-F82B-4696-B10A-89DC9C0A5DBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "uz", "uz", "{374E5356-B60C-496D-B9AA-923CA3C39E3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "md", "md", "{1BFA74AF-F00C-4927-AF80-38AD6AFBD8C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18F960FB-F82B-4696-B10A-89DC9C0A5DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F960FB-F82B-4696-B10A-89DC9C0A5DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F960FB-F82B-4696-B10A-89DC9C0A5DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F960FB-F82B-4696-B10A-89DC9C0A5DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{18F960FB-F82B-4696-B10A-89DC9C0A5DBC} = {1BFA74AF-F00C-4927-AF80-38AD6AFBD8C9}
+		{1BFA74AF-F00C-4927-AF80-38AD6AFBD8C9} = {374E5356-B60C-496D-B9AA-923CA3C39E3B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0D08804-AEF3-4ACB-99C3-D156C8D50213}
+	EndGlobalSection
+EndGlobal
